@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Landing Page</title>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<link rel="stylesheet" type="text/css" href="productlanding.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<header id="header">
+			<img id="header-img" src="logo.png" alt="logo">
+			<nav id="nav-bar">
+				<ul>
+					<li class="nav-link"><a href="#features">Features</a></li>
+					<li class="nav-link"><a href="#howitworks">How It Works</a></li>
+					<li class="nav-link"><a href="#pricing">Pricing</a></li>
+				</ul>	
+			</nav>
+		</header>
+
+		<main class="features_container">
+			<section class="form_section">
+				<h3 class="form_title">Handcrafted, home-made masterpiece</h3>
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<input id="email" type="email" name="email" placeholder="Enter your email address" required />
+					<input type="submit" id="submit" value="Get Started" class="form_bttn"></input>
+				</form>
+			</section>
+
+			<div class="features_container">
+				<section id="features">
+					<div class="guide">
+						<div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+						<div class="desc">
+						<h2>Premium Materials</h2>
+						<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase</p>
+						</div>
+
+					<div class="guide">
+						<div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+						<div class="desc">
+						<h2>Fast Shipping</h2>
+						<p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+						</div>
+
+					<div class="guide">
+						<div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
+						<div class="desc">
+						<h2>Quality Assurance</h2>
+						<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<section id="howitworks">
+				<iframe
+		        id="video"
+		        height="315"
+		        width="550"
+		        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+		        frameborder="0"
+		        allowfullscreen></iframe>
+			</section>
+
+			<section id="pricing">
+				<div class="three_boxes">
+					<h3>tenor trombone</h3>
+					<p>$600</p>
+					<div class="attributes">
+						<p>Lorem ipsum</p>
+						<p>Lorem ipsum</p>
+						<p>Lorem ipsum dolor</p>
+						<p>Lorem ipsum</p>
+					</div>
+					<button class="orange_bttn">Select</button>
+				</div>
+
+				<div class="three_boxes">
+					<h3>bass trombone</h3>
+					<p>$900</p>
+					<div class="attributes">
+						<p>Lorem ipsum</p>
+						<p>Lorem ipsum</p>
+						<p>Lorem ipsum dolor</p>
+						<p>Lorem ipsum</p>
+					</div>
+					<button class="orange_bttn">Select</button>
+				</div>
+
+				<div class="three_boxes">
+					<h3>valve trombone</h3>
+					<p>$1200</p>
+					<div class="attributes">
+						<p>Plays similar to a Trumpet</p>
+						<p>Great for Jazz Bands</p>
+						<p>Lorem ipsum dolor</p>
+						<p>Lorem ipsum</p>
+					</div>
+					<button class="orange_bttn">Select</button>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="footer_first">
+				<p><a href="#">Privacy</a></p>
+				<p><a href="#">Terms</a></p>
+				<p><a href="#">Contact</a></p>
+			</div>
+
+			<div class="footer_second">
+				<p>Copyright 2020, Original Trombones &#40;A copy version&#41;</p>
+			</div>
+		</footer>
+	</body>
+</html>
